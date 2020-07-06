@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="Regression Login Test(failed)">
+    <classes>
+      <class name="regressoin.Testcase1">
+        <methods>
+          <include name="LauncingBrowser"/>
+          <include name="LauncingBrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closedbconn"/>
+          <include name="closedbconn"/>
+          <include name="createdbconn"/>
+          <include name="createdbconn"/>
+        </methods>
+      </class> <!-- regressoin.Testcase1 -->
+      <class name="regressoin.Testcase2">
+        <methods>
+          <include name="validatetitle"/>
+        </methods>
+      </class> <!-- regressoin.Testcase2 -->
+    </classes>
+  </test> <!-- Regression Login Test(failed) -->
+  <test name="Regression validate title Test(failed)">
+    <classes>
+      <class name="regressoin.Testcase1">
+        <methods>
+          <include name="LauncingBrowser"/>
+          <include name="LauncingBrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closedbconn"/>
+          <include name="closedbconn"/>
+          <include name="createdbconn"/>
+          <include name="createdbconn"/>
+        </methods>
+      </class> <!-- regressoin.Testcase1 -->
+      <class name="regressoin.Testcase2">
+        <methods>
+          <include name="validatetitle"/>
+        </methods>
+      </class> <!-- regressoin.Testcase2 -->
+    </classes>
+  </test> <!-- Regression validate title Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

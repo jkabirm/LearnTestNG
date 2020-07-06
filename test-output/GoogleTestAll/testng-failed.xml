@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GoogleTestAll]">
+  <test name="GoogleTest">
+    <classes>
+      <class name="com.testng.GoogleTest"/>
+      <class name="com.testng.TestngBasic"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+  <test name="GoogleTest(failed)">
+    <classes>
+      <class name="com.testng.TestngBasic">
+        <methods>
+          <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="generatetestReport"/>
+          <include name="deleteallcookies"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="enterURL"/>
+        </methods>
+      </class> <!-- com.testng.TestngBasic -->
+      <class name="com.testng.GoogleTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="googlelogoTest"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTest -->
+    </classes>
+  </test> <!-- GoogleTest(failed) -->
+</suite> <!-- Failed suite [GoogleTestAll] -->
